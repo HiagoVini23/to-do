@@ -35,3 +35,12 @@ $front-todo-theme: mat.define-light-theme((
 // that you are using.
 @include mat.all-component-themes($front-todo-theme);
 
+
+.validation-error p{
+  color: #dc3545;
+  font-size: small;
+  margin-top: 0;
+  padding-top: 0;
+  border-left: 3px solid #dc3545;
+  padding-left: .2em;
+}
